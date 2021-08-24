@@ -10,6 +10,6 @@ or "http://127.0.0.1:3000/".
 You should see a custom display message appear on the webpage!
 
 
-To rebuild images, run the command "docker-compose --build".
+To rebuild images, run the command "docker-compose build".
 
 To rebuild images and run the app, run the command "docker-compose up --build".
