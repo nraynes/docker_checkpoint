@@ -5,4 +5,28 @@ body, html {
   padding: 0px;
   background-color: aliceblue;
 }
+
+@media (pointer: none), (pointer: coarse) and (min-height: 1000px) and (orientation: portrait) {
+  body, html {
+    background-color: antiquewhite;
+  }
+}
+
+@media (pointer: none), (pointer: coarse) and (min-width: 1000px) and (orientation: landscape) {
+  body, html {
+    background-color: antiquewhite;
+  }
+}
+
+@media (pointer: none), (pointer: coarse) and (max-height: 1000px) and (orientation: portrait) {
+  body, html {
+    background-color: honeydew;
+  }
+}
+
+@media (pointer: none), (pointer: coarse) and (max-width: 1000px) and (orientation: landscape) {
+  body, html {
+    background-color: honeydew;
+  }
+}
 /*# sourceMappingURL=index.css.map */

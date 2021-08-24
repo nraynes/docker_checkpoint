@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import "./styles/app/app.css";
 function App() {
-  const [greeting, setGreeting] = useState("Loading...");
+  // const [greeting, setGreeting] = useState("Loading...");
+  const [greeting, setGreeting] = useState("Welcome to your Dockerized Express/React full-stack app!");
 
   useEffect(() => {
     fetch(`http://localhost:1000/acquire`)
@@ -13,7 +14,9 @@ function App() {
 
   return (
     <div className="App">
-      <h1>{greeting}</h1>
+      <div id='greetingContainer'>
+        <h1>{greeting}</h1>
+      </div>
     </div>
   );
 }
